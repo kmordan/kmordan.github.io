@@ -3,9 +3,6 @@
     Base
     Site container
     Masthead
-    Thumbnail
-    Post
-    Pagination
     Footer
     Menu
     Code
@@ -119,95 +116,6 @@ hr {
 }
 
 /*
-  Thumbnail
-*/
-
-.thumbnail-container {
-  max-width: 100%;
-  overflow: hidden;
-  border-radius: 5px;
-  margin-bottom: 25px;
-}
-
-.thumbnail-container img{
-  margin-top: -11.5%;
-  margin-bottom: -11.5%;
-}
-
-/*
-  Post
-*/
-
-.post-container {
-  margin-bottom: 4rem;
-}
-
-.posts {
-  margin-bottom: 5rem;
-  padding: 0px;
-  list-style: none;
-}
-
-.post-date {
-  display: block;
-  margin-top:3px;
-  margin-bottom: 1rem;
-  color: #9a9a9a;
-  font-family: 'Quattrocento Sans', sans-serif;
-  font-size:0.8rem;
-}
-
-@media (max-width: 30rem) {
-  .posts h1 {
-    font-size: 1.5rem;
-  }
-}
-
-.related {
-  padding-bottom: 2rem;
-}
-
-.related-posts {
-  padding-left: 0px;
-  list-style: none;
-}
-
-.related-posts a {
-  text-decoration: none;
-}
-
-/*
-  Pagination
-*/
-
-.pagination {
-  overflow: hidden;
-  font-family: 'Quattrocento Sans', sans-serif;
-  text-align: center;
-}
-
-.pagination a {
-  text-decoration: none;
-}
-
-.pagination-button {
-  color: #999;
-  border: 1px solid #e0e0e0;
-  padding: 15px 45px;
-  display: inline-block;
-  font-size: 16px;
-  font-weight: bold;
-}
-
-.pagination-active {
-  color: black;
-}
-
-.pagination-active:hover {
-  background-color: #e0e0e0;
-}
-
-/*
   Footer
 */
 
@@ -225,6 +133,15 @@ hr {
 
 .footer a:hover {
   color: #333;
+}
+
+.footer_title {
+  display: block;
+  margin-top:3px;
+  margin-bottom: 1rem;
+  color: #9a9a9a;
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-size:0.8rem;
 }
 
 /*
