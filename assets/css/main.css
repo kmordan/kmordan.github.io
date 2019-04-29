@@ -115,6 +115,12 @@ hr {
   color: #999;
 }
 
+@media (max-width: 30em) {
+	.masthead-subtitle {
+		display: block;
+	}
+}
+
 /*
   Footer
 */
