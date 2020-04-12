@@ -10,3 +10,5 @@ plugins:             [jekyll-sitemap, jekyll-seo-tag, jekyll-feed]
 title:		           'Konstantin Mordan'
 description:	       'iOS Developer'
 author:                'Konstantin Mordan'
+
+theme: jekyll-theme-minimal
