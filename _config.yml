@@ -8,7 +8,7 @@ plugins:             [jekyll-sitemap, jekyll-seo-tag, jekyll-feed]
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
 title:		           'Konstantin Mordan'
-description:	       'iOS Developer'
-author:                'Konstantin Mordan'
+description:	       'iOS Engineer'
+author:              'Konstantin Mordan'
 
 theme: jekyll-theme-minimal
